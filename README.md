@@ -24,7 +24,7 @@ and run via unix bash.
 Support
 -------
  
-If you are having issues, you can contact me at pulsoned@appstate.edu.
+If you are having issues, you can contact me at [pulsoned@appstate.edu](mailto:pulsoned@appstate.edu).
 
 FAQs
 -------
