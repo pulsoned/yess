@@ -45,7 +45,7 @@ Contribution is currently not supported due to the YESS being in an unfinished s
 How to use
 -------
  
-Navigate to the folder that contains `yess` and then simply type
+Navigate to the folder that contains `yess` and ensure you have a file of the type `.yo` somewhere in your directory, then simply type
 
     ./yess <filepath>/<yofilename>.yo
 
