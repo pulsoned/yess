@@ -41,11 +41,6 @@ Contribute
  
 Contribution is currently not supported due to the YESS being in an unfinished state. Since the program is a project for an ongoing course, the code cannot be open-source without violating Appalachian State's 
  Academic Integrity Code.
- 
-License
--------
- 
-I don't understand how licensing works but I assume this project is unlicensed.
 
 How to use
 -------
