@@ -14,12 +14,13 @@ Features
 Installation
 ------------
  
-Install YESS by downloading [here](https://github.com/pulsoned/yess) or use: 
+Install YESS by downloading [here](https://github.com/pulsoned/yess)* or use: 
 
     $ git clone https://github.com/pulsoned/yess
 
 and run via unix bash.
  
+\*note that the current implementation of the YESS is incomplete and will not currently run Y86 code fully.
     
 Support
 -------
@@ -45,7 +46,7 @@ Contribution is currently not supported due to the YESS being in an unfinished s
 How to use
 -------
  
-Navigate to the folder that contains `yess` and ensure you have a file of the type `.yo` somewhere in your directory, then simply type
+Navigate to the folder that contains `yess` and ensure you have a file of the type `.yo` somewhere in your directory, then simply type:
 
     ./yess <filepath>/<yofilename>.yo
 
