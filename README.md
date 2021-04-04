@@ -47,6 +47,6 @@ How to use
  
 Navigate to the folder that contains `yess` and ensure you have a file of the type `.yo` somewhere in your directory, then simply type:
 
-    ./yess <filepath>/<yofilename>.yo
+    ./yess -fdemw <filepath>/<yofilename>.yo
 
-where `<filepath>` is the path to the file you'd like to run and `<yofilename>` is the name of the file, press enter, and your file will run!
+where `<filepath>` is the path to the file you'd like to run and `<yofilename>` is the name of the file, press enter, and your file will run! You may select specific stages of the Y86 pipeline you would like to run with the command-line argument as shown in the example, `-fdemw`, although it is advised to run every stage as not doing so may cause problems in, especially in the current unfinished state of the YESS.
