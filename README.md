@@ -20,7 +20,7 @@ Install YESS by downloading [here](https://github.com/pulsoned/yess)* or use:
 
 and run via unix bash.
  
-\*note that the current implementation of the YESS is incomplete and will not currently run Y86 code fully.
+<sub>*note that the current implementation of the YESS is incomplete and will not currently run Y86 code fully.</sub>
     
 Support
 -------
