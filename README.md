@@ -16,7 +16,7 @@ Installation
  
 Install YESS by downloading [here](https://github.com/pulsoned/yess) or use: 
 
- $ git clone https://github.com/pulsoned/yess
+    $ git clone https://github.com/pulsoned/yess
 
 and run via unix bash.
  
