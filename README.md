@@ -25,7 +25,7 @@ and run via unix bash.
 Support
 -------
  
-If you are having issues, you can contact me at [pulsoned@appstate.edu](mailto:pulsoned@appstate.edu).
+If you are having issues or would like to report a bug, you can contact me at [pulsoned@appstate.edu](mailto:pulsoned@appstate.edu).
 
 FAQs
 -------
@@ -40,8 +40,7 @@ The YESS should be complete by the end of April at the latest.
 Contribute
 ----------
  
-Contribution is currently not supported due to the YESS being in an unfinished state. Since the program is a project for an ongoing course, the code cannot be open-source without violating Appalachian State's 
- Academic Integrity Code.
+Contribution is currently not supported due to the YESS being in an unfinished state. Since the program is a project for an ongoing course, the code cannot be open-source without violating Appalachian State's Academic Integrity Code. However, you are more than welcome to contact me to report a bug at [pulsoned@appstate.edu](mailto:pulsoned@appstate.edu).
 
 How to use
 -------
