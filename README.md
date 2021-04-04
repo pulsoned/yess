@@ -49,5 +49,5 @@ How to use
 Navigate to the folder that contains `yess` and then simply type
 
     ./yess <filepath>/<yofilename>.yo
-    
+
 where `<filepath>` is the path to the file you'd like to run and `<yofilename>` is the name of the file, press enter, and your file will run!
