@@ -14,7 +14,11 @@ Features
 Installation
 ------------
  
-Install YESS by downloading [here](https://www.google.com) (fake link) and run via unix bash.
+Install YESS by downloading [here](https://github.com/pulsoned/yess) or use: 
+
+ $ git clone https://github.com/pulsoned/yess
+
+and run via unix bash.
  
     
 Support
