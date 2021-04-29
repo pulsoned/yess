@@ -18,11 +18,16 @@ Materials
 A keyboard is required to run the simulator and an internet connection is required to download it. A unix machine along with a working Y86 assembly file with the `.yo` extension are also required to run the program. 
 
 A working `.yo` file looks something like this:
+
 ![working yo file](https://user-images.githubusercontent.com/78573722/116626729-c045ab80-a919-11eb-8660-cca34ef8f061.png)
 
 Code Example
 --------
- 
+Due to YESS being a project for an ongoing course, not much code may be shared, however, here are some examples of code written for the YESS:
+
+#main method
+
+
  
 Installation
 ------------
