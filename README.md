@@ -21,7 +21,7 @@ A working `.yo` file looks something like this:
 
 ![working yo file](https://user-images.githubusercontent.com/78573722/116626729-c045ab80-a919-11eb-8660-cca34ef8f061.png)
 
-Code Example
+Code Examples
 --------
 Due to YESS being a project for an ongoing course, not much code may be shared, however, here are some examples of code written for the YESS:
 
@@ -34,7 +34,7 @@ Due to YESS being a project for an ongoing course, not much code may be shared, 
 		 return 0;
 	 }
 	
- 	bool f=false,d=false,e=false,m=false,w=false;
+ 	 bool f=false,d=false,e=false,m=false,w=false;
 	 char *new_argv = getOptions(argc,argv,&f,&d,&e,&m,&w);
 
 	 char* infile = new_argv;
