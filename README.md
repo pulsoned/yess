@@ -25,9 +25,39 @@ Code Example
 --------
 Due to YESS being a project for an ongoing course, not much code may be shared, however, here are some examples of code written for the YESS:
 
-### main method
+### Main method
 
+ int main(int argc, char *argv[])
+ {
+	 if (argc < 2){
+		 usage();
+		 return 0;
+	 }
+	
+ 	bool f=false,d=false,e=false,m=false,w=false;
+	 char *new_argv = getOptions(argc,argv,&f,&d,&e,&m,&w);
 
+	 char* infile = new_argv;
+	 y86.reset();
+	 if (y86.load(infile))
+	 {
+		 y86.setTrace(f,d,e,m,w);   // this must come after the load, before entering while loop
+		 bool stop = false;
+		 while (!stop)
+		 {
+
+			 y86.clock();
+			 y86.trace();
+			 stop = y86.getStat();
+		 }
+	 }
+    // After exiting simulation loop, always dump state
+	y86.dumpProcessorRegisters();
+	y86.dumpProgramRegisters();
+	y86.dumpMemory();
+
+    return 0;
+ } // end main
  
 Installation
 ------------
