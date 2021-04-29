@@ -25,13 +25,13 @@ Due to YESS being a project for an ongoing course, not much code may be shared, 
 ### Main method
 
  	int main(int argc, char *argv[])
- 	{
-	 if (argc < 2){
-		 usage();
-		 return 0;
-	 }
+ 		{
+	 	if (argc < 2){
+			 usage();
+		 	return 0;
+		 }
 	
-		bool f=false,d=false,e=false,m=false,w=false;
+	bool f=false,d=false,e=false,m=false,w=false;
 	 char *new_argv = getOptions(argc,argv,&f,&d,&e,&m,&w);
 
 	 char* infile = new_argv;
