@@ -106,7 +106,7 @@ This method, located in the `Y86.cpp` class, checks to see if each line is valid
 Installation
 ------------
  
-Install YESS by downloading [here](https://github.com/pulsoned/yess)* 
+Install YESS by downloading [here](https://github.com/pulsoned/yess)
 ![how to download](https://user-images.githubusercontent.com/78573722/113520422-fb460080-9560-11eb-9a9a-3e1df536f0e2.png)
 
 or use: 
