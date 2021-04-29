@@ -1,6 +1,3 @@
-
-
-
 YESS (Y86 Simulator)
 ========
  
@@ -144,3 +141,11 @@ Navigate to the folder that contains `yess` and ensure you have a file of the ty
     ./yess -fdemw <filepath>/<yofilename>.yo
 
 where `<filepath>` is the path to the file you'd like to run and `<yofilename>` is the name of the file, press enter, and your file will run! You may select specific stages of the Y86 pipeline you would like to run with the command-line argument as shown in the example, `-fdemw`, by omitting letters from the argument to omit the corresponding stage (in the order of: fetch, decode, execute, memory, and writeback), although it is advised to run every stage as not doing so may cause problems.
+
+![example](https://user-images.githubusercontent.com/78573722/116627634-7eb60000-a91b-11eb-8aa8-88152f387d07.png)
+
+For example, as you can see, the only two files in the directory are the simulator (`yess`), and the `.yo` file, `lab12d.yo`. Using the command as shown will result in the file being fully simulated and will output something like this:
+
+![output](https://user-images.githubusercontent.com/78573722/116627822-d5233e80-a91b-11eb-8ded-f955e6a8f3de.png)
+
+If you scroll up, you will see each cycle in full detail and what instruction is being carried out at any time, similar to the lines starting with `Cycle 148`.
