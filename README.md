@@ -135,6 +135,11 @@ Contribute
  
 Since the program is a project for an ongoing course, the code cannot be open-source without violating Appalachian State's Academic Integrity Code. However, you are more than welcome to contact me to report a bug at [pulsoned@appstate.edu](mailto:pulsoned@appstate.edu).
 
+Licensing
+----------
+
+This program is distributed using an [MIT License](https://opensource.org/licenses/MIT)
+
 How to use
 -------
  
