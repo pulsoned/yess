@@ -24,36 +24,36 @@ Due to YESS being a project for an ongoing course, not much code may be shared, 
 
 ### Main method
 
- 	int main(int argc, char *argv[])
- 		{
+	int main(int argc, char *argv[])
+ 	{
 	 	if (argc < 2){
-			 usage();
+			usage();
 		 	return 0;
 		 }
 	
-	bool f=false,d=false,e=false,m=false,w=false;
-	 char *new_argv = getOptions(argc,argv,&f,&d,&e,&m,&w);
+		bool f=false,d=false,e=false,m=false,w=false;
+		char *new_argv = getOptions(argc,argv,&f,&d,&e,&m,&w);
 
-	 char* infile = new_argv;
-	 y86.reset();
-	 if (y86.load(infile))
-	 {
-		 y86.setTrace(f,d,e,m,w);   // this must come after the load, before entering while loop
-		 bool stop = false;
-		 while (!stop)
-		 {
+	 	char* infile = new_argv;
+	 	y86.reset();
+	 	if (y86.load(infile))
+	 	{
+		 	y86.setTrace(f,d,e,m,w);   // this must come after the load, before entering while loop
+			bool stop = false;
+		 	while (!stop)
+		 	{
 
-			 y86.clock();
-			 y86.trace();
-			 stop = y86.getStat();
-		 }
-	 }
-    // After exiting simulation loop, always dump state
-	y86.dumpProcessorRegisters();
-	y86.dumpProgramRegisters();
-	y86.dumpMemory();
+			 	y86.clock();
+				y86.trace();
+			 	stop = y86.getStat();
+		 	}
+	 	}
+    		// After exiting simulation loop, always dump state
+		y86.dumpProcessorRegisters();
+		y86.dumpProgramRegisters();
+		y86.dumpMemory();
 
-    return 0;
+    		return 0;
  	} // end main
  
 This method checks the command-line arguments to ensure that there are not too many, that the file is of the correct type, and which stages the simulator should use.
