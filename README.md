@@ -27,8 +27,8 @@ Due to YESS being a project for an ongoing course, not much code may be shared, 
 
 ### Main method
 
- int main(int argc, char *argv[])
- {
+ 	int main(int argc, char *argv[])
+ 	{
 	 if (argc < 2){
 		 usage();
 		 return 0;
@@ -57,7 +57,7 @@ Due to YESS being a project for an ongoing course, not much code may be shared, 
 	y86.dumpMemory();
 
     return 0;
- } // end main
+ 	} // end main
  
 Installation
 ------------
