@@ -25,7 +25,7 @@ Code Example
 --------
 Due to YESS being a project for an ongoing course, not much code may be shared, however, here are some examples of code written for the YESS:
 
-#main method
+# main method
 
 
  
