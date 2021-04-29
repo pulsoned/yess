@@ -60,43 +60,45 @@ This method checks the command-line arguments to ensure that there are not too m
 
 ### Y86::readFile method
 
-    int lnNum = 1;
-    string line;
-    uint64_t address;
-    string data;
-    unsigned length;
-    uint64_t lastAddr = 0;
-    unsigned lastLength = 0;
+	bool Y86::readFile(ifstream& infile)
+	{
+		int lnNum = 1;
+    		string line;
+    		uint64_t address;
+    		string data;
+    		unsigned length;
+    		uint64_t lastAddr = 0;
+    		unsigned lastLength = 0;
     
-    while (getline(infile, line))
-    {
-      //if poor format do nothing
-      if (!checkLine(lastAddr, lastLength, line))
-      {
-        cout << "Error on line " << lnNum << "\n" << line << endl;
-        return false;
-      }
-      else
-      {
-        address = getAddress(line);
-        data = getData(line);
-        length = hasValidData(line);
-        if (length)
-          writeMemory(data, address);
-        lnNum++;
-      }
+    		while (getline(infile, line))
+    		{
+      			//if poor format do nothing
+      			if (!checkLine(lastAddr, lastLength, line))
+      			{
+        			cout << "Error on line " << lnNum << "\n" << line << endl;
+        			return false;
+      			}
+      			else
+      			{
+        			address = getAddress(line);
+        			data = getData(line);
+        			length = hasValidData(line);
+        			if (length)
+         			writeMemory(data, address);
+        			lnNum++;
+      			}
 
-      if (length)
-      {
-        lastAddr = address;
-        lastLength = length;
-      }
-        memory = mem;
-    }
+      			if (length)
+      			{
+        			lastAddr = address;
+       				lastLength = length;
+     			}
+        		memory = mem;
+   		}
 
-    memory = mem;
+		memory = mem;
 
-    return true;
+    		return true;
     }
 
 This method, located in the `Y86.cpp` class, checks to see if each line is valid using several helper functions and loads that line into the simulator.
