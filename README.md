@@ -102,6 +102,8 @@ This method checks the command-line arguments to ensure that there are not too m
     return true;
     }
 
+This method, located in the `Y86.cpp` class, checks to see if each line is valid using several helper functions and loads that line into the simulator.
+
 Installation
 ------------
  
