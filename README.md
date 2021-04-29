@@ -138,7 +138,7 @@ Since the program is a project for an ongoing course, the code cannot be open-so
 Licensing
 ----------
 
-This program is distributed using an [MIT License](https://opensource.org/licenses/MIT)
+This program is distributed using an [MIT License](https://opensource.org/licenses/MIT).
 
 How to use
 -------
